@@ -76,7 +76,7 @@ Run unit/integration tests with Maven:
 ./mvnw test
 ```
 
-## Notes for Portfolio Reviewers
+## Notes 
 
 - The project structure is ready for a full order domain (controllers, services, repositories) and RabbitMQ consumers/producers.
 - The intent is to keep API endpoints fast by offloading non-critical work to asynchronous RabbitMQ-driven flows.
